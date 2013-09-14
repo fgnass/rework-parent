@@ -1,0 +1,17 @@
+.foo,
+.bar {
+  font-weigth: bold;
+}
+
+& .baz {
+  color: red;
+}
+
+.aaa && {
+  color: lime;
+}
+
+.boo &&,
+.boo & {
+  color: green;
+}

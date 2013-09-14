@@ -1,0 +1,21 @@
+.foo,
+.bar {
+  font-weigth: bold;
+}
+
+.foo .baz,
+.bar .baz {
+  color: red;
+}
+
+.aaa .foo .baz,
+.aaa .bar .baz {
+  color: lime;
+}
+
+.boo .foo .baz,
+.boo .bar .baz,
+.boo .foo,
+.boo .bar {
+  color: green;
+}

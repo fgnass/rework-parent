@@ -1,0 +1,24 @@
+{
+  "name": "rework-parent",
+  "version": "0.0.1",
+  "description": "Rework parent selector support",
+  "keywords": [
+    "rework",
+    "css",
+    "clearfix"
+  ],
+  "author": "Felix Gnass",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fgnass/rework-parent.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "rework": "*"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require should"
+  }
+}

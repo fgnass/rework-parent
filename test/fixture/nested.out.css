@@ -1,0 +1,15 @@
+.red {
+  color: red;
+}
+
+.red.bold {
+  font-weight: bold;
+}
+
+.red.bold:hover {
+  color: blue;
+}
+
+.disabled .red {
+  background: silver;
+}
