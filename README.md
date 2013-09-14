@@ -70,7 +70,7 @@ This yields:
 ```
 
 
-### API
+### Usage
 
 ```js
   var rework = require('rework');
